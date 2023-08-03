@@ -1,0 +1,16 @@
+.horizontal-loader {
+  animation-name: loader;
+  animation-duration: 3s;
+}
+
+@keyframes loader {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 25%;
+  }
+  100% {
+    width: 100%;
+  }
+}
